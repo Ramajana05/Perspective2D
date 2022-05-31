@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: c8618d82be5e7d0458f818651d9f9cb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5740230825090905351
+    second: Wraith_03_Deathsheet_0
+  - first:
+      213: -5175576870813843070
+    second: Wraith_03_Deathsheet_1
+  - first:
+      213: -6750030926715945075
+    second: Wraith_03_Deathsheet_2
+  - first:
+      213: 7116143668491258695
+    second: Wraith_03_Deathsheet_3
+  - first:
+      213: -3168250209318590529
+    second: Wraith_03_Deathsheet_4
+  - first:
+      213: 1074598033215475269
+    second: Wraith_03_Deathsheet_5
+  - first:
+      213: 806368577353553570
+    second: Wraith_03_Deathsheet_6
+  - first:
+      213: -4390286372705853526
+    second: Wraith_03_Deathsheet_7
+  - first:
+      213: 4289030758344648531
+    second: Wraith_03_Deathsheet_8
+  - first:
+      213: 4020272959215971275
+    second: Wraith_03_Deathsheet_9
+  - first:
+      213: 2893534257147492052
+    second: Wraith_03_Deathsheet_10
+  - first:
+      213: -5920545029600046652
+    second: Wraith_03_Deathsheet_11
+  - first:
+      213: 9106017420052606938
+    second: Wraith_03_Deathsheet_12
+  - first:
+      213: 6948055822745182657
+    second: Wraith_03_Deathsheet_13
+  - first:
+      213: 6968477177616189575
+    second: Wraith_03_Deathsheet_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa85b54a7a9650b0800000000000000
+      internalID: -5740230825090905351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c963e148ac28b0800000000000000
+      internalID: -5175576870813843070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_2
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ff136a2a21352a0800000000000000
+      internalID: -6750030926715945075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b011ba6fe91c260800000000000000
+      internalID: 7116143668491258695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb72202883d1804d0800000000000000
+      internalID: -3168250209318590529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_5
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e442eb73db9ee00800000000000000
+      internalID: 1074598033215475269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_6
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a61233e2fbc03b00800000000000000
+      internalID: 806368577353553570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 315
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf11a40ec19213c0800000000000000
+      internalID: -4390286372705853526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3576bdd10c2b58b30800000000000000
+      internalID: 4289030758344648531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb2d22c4f0eac730800000000000000
+      internalID: 4020272959215971275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d633b68316e72820800000000000000
+      internalID: 2893534257147492052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_11
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c11cf9f9aff5dda0800000000000000
+      internalID: -5920545029600046652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_12
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf21c809921f5e70800000000000000
+      internalID: 9106017420052606938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_13
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1af4a55f37c6060800000000000000
+      internalID: 6948055822745182657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wraith_03_Deathsheet_14
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 118
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788ca3d821105b060800000000000000
+      internalID: 6968477177616189575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

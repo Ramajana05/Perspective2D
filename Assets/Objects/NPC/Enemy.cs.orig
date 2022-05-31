@@ -1,0 +1,59 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public enum EnemyState
+{
+    asleep,
+    walk,
+    attack,
+    stagger,
+    dead
+}
+
+public class Enemy : MonoBehaviour
+{
+    public EnemyState currentState;
+    public int hp;
+    public float movementSpeed;
+    public string enemyName;
+    public int baseAttack;
+    public float attacksPerSecond;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+    }
+
+    public void TakeDamage(int amount)
+    {
+        hp -= amount;
+        
+        if(hp <= 0)
+        {
+            //Die();
+        }
+    }
+<<<<<<< HEAD
+    public virtual void Die()
+    { 
+        //Destroy(gameObject);
+=======
+    void Die()
+    {
+        string tag = gameObject.tag;
+        Destroy(gameObject);
+        if (tag == "Dragon")
+        {
+            SceneManager.LoadScene("EndScreen");
+        }
+>>>>>>> a00b3f31c489da83966816c9594162ad1a11b758
+    }
+}

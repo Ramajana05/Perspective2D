@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3657593826792702839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3657593826792702793}
+  - component: {fileID: 3657593826792702838}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3657593826792702793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657593826792702839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.15804106, y: 1.0627214, z: -136.36105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3657593826792702838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657593826792702839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0edda97096e174285797c1e5b12a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCustomeCharacterPreFab: {fileID: 5460970871329465042, guid: a8267d90412b8ec4b8dc46726509f49f,
+    type: 3}
+  preFabHair: {fileID: 0}
+  preFabEyes: {fileID: 0}
+  preFabBody: {fileID: 0}
+  HairList:
+  - {fileID: 21300000, guid: 5537790a14fffe14d8220a9622bee369, type: 3}
+  - {fileID: 21300000, guid: 49245ecc6bbd85a4a84e68e49fa1a8e4, type: 3}
+  - {fileID: 21300000, guid: cf9df54204344f84b92006b992a93e0e, type: 3}
+  - {fileID: 21300000, guid: e4dc67a6bdd84c74987d2123aee19405, type: 3}
+  EyeList:
+  - {fileID: 21300000, guid: 45d916c85aeda9941bc2d6863da0f4d3, type: 3}
+  - {fileID: 21300000, guid: d8a6fb40701bc1140b1534ed5ce76d69, type: 3}
+  BodyList:
+  - {fileID: 21300000, guid: 85793e32359f52d45a2fe2a1ba71340c, type: 3}
+  - {fileID: 21300000, guid: 9e8d1b53de8bb7c429438dfb9cbd4255, type: 3}
+  - {fileID: 21300000, guid: abb84a9d27675d0439c04bc93f83bdff, type: 3}
+  - {fileID: 21300000, guid: 80369c7998897694bb3249c628bcfef2, type: 3}
+  shortBrownHair: {fileID: 0}
+  pinkHair: {fileID: 0}
+  helmet: {fileID: 0}
+  helmetRetro: {fileID: 0}
+  longEyes: {fileID: 0}
+  squareEyes: {fileID: 0}
+  brownOutfit: {fileID: 0}
+  pinkOutfit: {fileID: 0}
+  armor: {fileID: 0}
+  armorRetro: {fileID: 0}
+  pinkOutfitAnimation: {fileID: 6749771285782429464, guid: f9bd569a97224bf44bc2d4438ebdd961,
+    type: 3}
+  brownOutfitAnimation: {fileID: 1690148161287406168, guid: 0fcdd000ed6e429438fc14c447ab4653,
+    type: 3}
+  armorOutfitAnimation: {fileID: 7549009654045565063, guid: a5e6276b26c7ea34b8db760ef311559e,
+    type: 3}
+  armorOutfitRetroAnimation: {fileID: 7688897085395757845, guid: 1f2965680976a0648b155607711e8f41,
+    type: 3}
+  squareEyesAnimation: {fileID: 6585038149468207991, guid: 0143faa15d0a97f4cbe723741ed532cd,
+    type: 3}
+  longEyesAnimation: {fileID: 9050372274282651767, guid: c94ddc85678b4254382b41a8a13a2e96,
+    type: 3}
+  pinkHairAnimation: {fileID: 7106350165259453763, guid: a4dfa7167f182074692bc3d153eca637,
+    type: 3}
+  brownHairAnimation: {fileID: 5725216544626904221, guid: bf4ac24966daa304798e5ff8ac76bb51,
+    type: 3}
+  armorHelmetAnimation: {fileID: 5916862967117836218, guid: 0ddb9c6767c324f419f83ec7ff032719,
+    type: 3}
+  armorRetroHelmetAnimation: {fileID: 7549009654045565063, guid: a5e6276b26c7ea34b8db760ef311559e,
+    type: 3}

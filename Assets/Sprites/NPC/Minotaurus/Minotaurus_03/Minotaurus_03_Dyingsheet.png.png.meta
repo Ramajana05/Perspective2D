@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: a82571b804ab3974fabea789cb4e12f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3029756113080080535
+    second: Minotaurus_03_Dyingsheet.png_0
+  - first:
+      213: -1929002074736076067
+    second: Minotaurus_03_Dyingsheet.png_1
+  - first:
+      213: -4708815466173959838
+    second: Minotaurus_03_Dyingsheet.png_2
+  - first:
+      213: -2003435436324909658
+    second: Minotaurus_03_Dyingsheet.png_3
+  - first:
+      213: 7609984766912985875
+    second: Minotaurus_03_Dyingsheet.png_4
+  - first:
+      213: -5098260756553612674
+    second: Minotaurus_03_Dyingsheet.png_5
+  - first:
+      213: 1345442224924087395
+    second: Minotaurus_03_Dyingsheet.png_6
+  - first:
+      213: -3526774222142566940
+    second: Minotaurus_03_Dyingsheet.png_7
+  - first:
+      213: -2759879297559342679
+    second: Minotaurus_03_Dyingsheet.png_8
+  - first:
+      213: 8733216468749669320
+    second: Minotaurus_03_Dyingsheet.png_9
+  - first:
+      213: -2350502461378359905
+    second: Minotaurus_03_Dyingsheet.png_10
+  - first:
+      213: -8284728320922192569
+    second: Minotaurus_03_Dyingsheet.png_11
+  - first:
+      213: -7217896487039236783
+    second: Minotaurus_03_Dyingsheet.png_12
+  - first:
+      213: -4880825918843245221
+    second: Minotaurus_03_Dyingsheet.png_13
+  - first:
+      213: -7455634113608070212
+    second: Minotaurus_03_Dyingsheet.png_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798d43ce12bdb0a20800000000000000
+      internalID: 3029756113080080535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda5d5455deca35e0800000000000000
+      internalID: -1929002074736076067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261f5d9284de6aeb0800000000000000
+      internalID: -4708815466173959838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad8c67d51e5234e0800000000000000
+      internalID: -2003435436324909658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b7bf973d81c9960800000000000000
+      internalID: 7609984766912985875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_5
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72ce498ad65f39b0800000000000000
+      internalID: -5098260756553612674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364596a3398fba210800000000000000
+      internalID: 1345442224924087395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0036d7816e0fc0800000000000000
+      internalID: -3526774222142566940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1550eb660f2b9d0800000000000000
+      internalID: -2759879297559342679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_9
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c35a669b1e923970800000000000000
+      internalID: 8733216468749669320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_10
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8cd10776516fd0800000000000000
+      internalID: -2350502461378359905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_11
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74570da8c7bb60d80800000000000000
+      internalID: -8284728320922192569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1558c781361e4db90800000000000000
+      internalID: -7217896487039236783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d24d0cfa2d34cb0800000000000000
+      internalID: -4880825918843245221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_03_Dyingsheet.png_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4b1b7644488890800000000000000
+      internalID: -7455634113608070212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

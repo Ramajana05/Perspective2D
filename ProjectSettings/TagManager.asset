@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Potions
+  - Potion
+  - Healing
+  - Enemy
+  - PlayerBody
+  - NPC
+  - DialogCanvas
+  - SaveManager
+  - AmountManager
+  - UI
+  - Dragon
+  - SwordFront
+  - SwordBack
+  - AudioHotFix
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - interactL
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Debug
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 7160583
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground1
+    uniqueID: 1482804205
+    locked: 0
+  - name: Foreground2
+    uniqueID: 31197431
+    locked: 0
+  - name: Behind
+    uniqueID: 3149877489
+    locked: 0
+  - name: PlayerBody
+    uniqueID: 3696774351
+    locked: 0
+  - name: PlayerEyes
+    uniqueID: 26033791
+    locked: 0
+  - name: PlayerHair
+    uniqueID: 946472133
+    locked: 0
+  - name: Sword
+    uniqueID: 3507295619
+    locked: 0
+  - name: Trees
+    uniqueID: 97290555
+    locked: 0

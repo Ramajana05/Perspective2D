@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 60427e5d2dd2da6419d03c3292ac3c9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5451486467320660708
+    second: Minotaurus_02_Walkingheet.png_0
+  - first:
+      213: -7629171831374077363
+    second: Minotaurus_02_Walkingheet.png_1
+  - first:
+      213: 3602828829196035312
+    second: Minotaurus_02_Walkingheet.png_2
+  - first:
+      213: 4207735041009542086
+    second: Minotaurus_02_Walkingheet.png_3
+  - first:
+      213: -9180997023698469858
+    second: Minotaurus_02_Walkingheet.png_4
+  - first:
+      213: -8292549049238293193
+    second: Minotaurus_02_Walkingheet.png_5
+  - first:
+      213: 7936059601395161562
+    second: Minotaurus_02_Walkingheet.png_6
+  - first:
+      213: -2113503694753849477
+    second: Minotaurus_02_Walkingheet.png_7
+  - first:
+      213: 1330764376016038235
+    second: Minotaurus_02_Walkingheet.png_8
+  - first:
+      213: -4279200384979080592
+    second: Minotaurus_02_Walkingheet.png_9
+  - first:
+      213: -4067671446609158965
+    second: Minotaurus_02_Walkingheet.png_10
+  - first:
+      213: 2484100461726768641
+    second: Minotaurus_02_Walkingheet.png_11
+  - first:
+      213: 7109431408083289493
+    second: Minotaurus_02_Walkingheet.png_12
+  - first:
+      213: 8221509621535224431
+    second: Minotaurus_02_Walkingheet.png_13
+  - first:
+      213: 4012940994053245640
+    second: Minotaurus_02_Walkingheet.png_14
+  - first:
+      213: -6042512703965079525
+    second: Minotaurus_02_Walkingheet.png_15
+  - first:
+      213: 4930691855218250286
+    second: Minotaurus_02_Walkingheet.png_16
+  - first:
+      213: -543436474445296997
+    second: Minotaurus_02_Walkingheet.png_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e24f7e0f0297ab40800000000000000
+      internalID: 5451486467320660708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422884f3acbf1690800000000000000
+      internalID: -7629171831374077363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f424c64bb1dff130800000000000000
+      internalID: 3602828829196035312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3665ce9b0e46a30800000000000000
+      internalID: 4207735041009542086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_4
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cb88699db869080800000000000000
+      internalID: -9180997023698469858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_5
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 794
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f5a55392faec80800000000000000
+      internalID: -8292549049238293193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad99c71192c822e60800000000000000
+      internalID: 7936059601395161562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f98b266935ba2e0800000000000000
+      internalID: -2113503694753849477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_8
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592e283623d77210800000000000000
+      internalID: 1330764376016038235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_9
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a6b9a0ce93d94c0800000000000000
+      internalID: -4279200384979080592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_10
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9cd9ee5abc87c0800000000000000
+      internalID: -4067671446609158965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_11
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 564
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e9b97653c497220800000000000000
+      internalID: 2484100461726768641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5954fc1c236c9a260800000000000000
+      internalID: 7109431408083289493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62301df07ba81270800000000000000
+      internalID: 8221509621535224431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_14
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca85279294d0b730800000000000000
+      internalID: 4012940994053245640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_15
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b185069d5bea42ca0800000000000000
+      internalID: -6042512703965079525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_16
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22123f4e165d6440800000000000000
+      internalID: 4930691855218250286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minotaurus_02_Walkingheet.png_17
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 334
+        width: 338
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a82bed7635578f0800000000000000
+      internalID: -543436474445296997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

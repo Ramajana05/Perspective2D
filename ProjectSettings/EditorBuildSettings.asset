@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: a9bbc909b163bb947aad236a7aca4cf0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1ade86327a8198a4a84b169846a2f3f0
+  - enabled: 1
+    path: Assets/Scenes/UIAnimated.unity
+    guid: d742f7d65b04e9f439b61161946940ab
+  - enabled: 1
+    path: Assets/Scenes/Patrick.unity
+    guid: 17cd12e549be1fd45bf7cb1aabec57e0
+  - enabled: 1
+    path: Assets/Scenes/Mountain_Biome.unity
+    guid: 2a8e047edb406c94080fc91d9bdb6b66
+  - enabled: 1
+    path: Assets/Scenes/Castle_Village.unity
+    guid: deb451328132a2844916196ea7d01c4b
+  - enabled: 1
+    path: Assets/Scenes/Forrest.unity
+    guid: a29542b621c433d4198973ed4d094d00
+  - enabled: 1
+    path: Assets/Scenes/Forrest_Village.unity
+    guid: 6e03ce1ff807ad9409e1df33f919b604
+  - enabled: 1
+    path: Assets/Map/Dungeon/Dungeon_Forest.unity
+    guid: 4727aed2128f020438a28380ea94febe
+  - enabled: 1
+    path: Assets/Map/Dungeon/Dungeon_Mountain.unity
+    guid: 11ee1b8bc310e18468f5f44771b09c76
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: c4d0db54bb37ad54e9750e6b8ee8e7eb
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: f91deac2460274840aff791f736c20d3
+  m_configObjects: {}

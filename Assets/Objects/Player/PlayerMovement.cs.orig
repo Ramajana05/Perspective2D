@@ -1,0 +1,155 @@
+using UnityEngine;
+using UnityEngine.Events;
+<<<<<<< HEAD
+using UnityEngine.UI;
+=======
+using System;
+using System.Collections;
+>>>>>>> 6a1ec17084e99bf271fb5eb8e59048528269a756
+
+public class PlayerMovement : MonoBehaviour
+{
+	public float moveSpeed = 5f;
+
+<<<<<<< HEAD
+	public Joystick joystick;
+	public Image joystickInner;
+	public Image joystickOuter;
+=======
+	public LayerMask interactionLayer;
+>>>>>>> 6a1ec17084e99bf271fb5eb8e59048528269a756
+
+	public Rigidbody2D rb;
+	public Animator animator;
+	private GameObject[] allBodyParts;
+	private CircleCollider2D cc2D;
+	public GameObject DialogBox;
+	private GameObject Player;
+
+	public Vector2 movement;
+	private RaycastHit2D[] m_Contacts = new RaycastHit2D[100];
+	void Start()
+    {
+		allBodyParts = GameObject.FindGameObjectsWithTag("PlayerBody");
+		cc2D = GetComponent<CircleCollider2D>();
+		Player = GameObject.FindGameObjectWithTag("Player");
+	}
+    // is called once perFrame
+    // Input
+    void Update()
+	{
+		Animator anim;
+		movement.x = Input.GetAxisRaw("Horizontal");
+		movement.y = Input.GetAxisRaw("Vertical");
+
+<<<<<<< HEAD
+		if (Application.platform == RuntimePlatform.Android)
+        {
+			joystickInner.enabled = true;
+			joystickOuter.enabled = true;
+			if (joystick.Horizontal >= .2f)
+			{
+				movement.x = 1f;
+			}
+			else if (joystick.Horizontal <= -.2f)
+			{
+				movement.x = -1f;
+			}
+
+			if (joystick.Vertical >= .2f)
+			{
+				movement.y = 1f;
+			}
+			else if (joystick.Vertical <= -.2f)
+			{
+				movement.y = -1f;
+			}
+		}
+		else
+        {
+			Destroy(joystick);
+			joystickInner.enabled = false;
+			joystickOuter.enabled = false;
+		}
+
+=======
+		
+>>>>>>> 6a1ec17084e99bf271fb5eb8e59048528269a756
+		foreach (GameObject bodypart in allBodyParts)
+		{
+			anim = bodypart.GetComponent<Animator>();
+			anim.SetFloat("Horizontal", movement.x);
+			anim.SetFloat("Vertical", movement.y);
+			anim.SetFloat("Speed", movement.sqrMagnitude);
+		}
+
+		if (movement.x != 0 || movement.y != 0)
+        {
+			DialogBox.SetActive(false);
+
+		}
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+			Interact();
+        }
+
+	}
+
+	//Called 50times a second
+	//Movement
+	void FixedUpdate() 
+	{
+		movement.x = movement.x * moveSpeed;
+		movement.y = movement.y * moveSpeed;
+
+		var direction = movement.normalized;
+
+
+		var resultCount = rb.Cast(direction.normalized, m_Contacts, movement.magnitude);
+
+		for (var i = 0; i < resultCount; ++i)
+		{
+			var contact = m_Contacts[i];
+			var distance = contact.distance;
+
+			// Are we actually moving?
+			if (distance > Mathf.Epsilon)
+			{
+				// Yes, so schedule the move.
+				rb.MovePosition(rb.position + (direction * distance));
+				return;
+			}
+			// If we're moving into a contact then finish as we cannot move.
+			else if (Vector2.Dot(contact.normal, direction) < 0)
+				return;
+		}
+<<<<<<< HEAD
+=======
+
+		// No contact was found so move the full velocity.
+		rb.MovePosition(rb.position + movement);
+>>>>>>> 6a1ec17084e99bf271fb5eb8e59048528269a756
+	}
+
+	void Interact()
+	{
+		var facedir = new Vector3(allBodyParts[0].GetComponent<Animator>().GetFloat("Horizontal"), allBodyParts[0].GetComponent<Animator>().GetFloat("Vertical"));
+		var interactPos = transform.position;// + facedir;
+		Debug.Log(interactPos);
+		//interactPos = transform.position + facedir;
+		Debug.Log(interactPos);
+
+		Debug.DrawLine(transform.position, interactPos, Color.red, 0.5f);
+
+		Collider2D collider = Physics2D.OverlapCircle(interactPos, 1.3f);
+
+			if (collider.transform.tag == "NPC" && collider !=null)
+			{
+				Debug.Log("interactionObject");
+				collider.GetComponent<Interactable>()?.Interact();
+			}
+		
+	}
+
+}

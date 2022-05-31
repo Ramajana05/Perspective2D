@@ -1,0 +1,167 @@
+
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CustomeCharacter : MonoBehaviour
+{
+    //AnimatedOption
+    public GameObject CurrentBodyPart;
+    public List<GameObject> OptionsListHair = new List<GameObject>();
+    public List<GameObject> OptionsListEyes = new List<GameObject>();
+    public List<GameObject> OptionsListBody = new List<GameObject>();
+
+    private int i;
+    private int j;
+    private int k;
+
+    public string outfit;
+    public string eyes;
+    public string hair;
+
+    public void AnimatedNextOptionHair()
+    {
+        SetAllOnFalseHair();
+        i++;
+
+        if (i >= OptionsListHair.Count)
+        {
+            i = 0; //Reset if cycled though entire lifetime
+        }
+
+        CurrentBodyPart = OptionsListHair[i].gameObject;
+        OptionsListHair[i].SetActive(true);
+    }
+
+    public void AnimatedPreviouseOptionHair()
+    {
+        SetAllOnFalseHair();
+        i--;
+
+        if (i <= -1)
+        {
+            i = OptionsListHair.Count - 1; ; //Reset if cycled though entire lifetime
+        }
+
+        CurrentBodyPart = OptionsListHair[i].gameObject;
+        OptionsListHair[i].SetActive(true);
+    }
+
+    public void AnimatedNextOptionEyes()
+    {
+        SetAllOnFalseEyes();
+        j++;
+
+        if (j >= OptionsListEyes.Count)
+        {
+            j = 0; //Reset if cycled though entire lifetime
+        }
+
+        CurrentBodyPart = OptionsListEyes[j].gameObject;
+        OptionsListEyes[j].SetActive(true);
+    }
+
+    public void AnimatedPreviouseOptionEyes()
+    {
+        SetAllOnFalseEyes();
+        j--;
+
+        if (j <= -1)
+        {
+            j = OptionsListEyes.Count - 1; ; //Reset if cycled though entire lifetime
+        }
+
+        CurrentBodyPart = OptionsListEyes[j].gameObject;
+        OptionsListEyes[j].SetActive(true);
+    }
+
+    public void AnimatedNextOptionBody()
+    {
+        SetAllOnFalseBody();
+        k++;
+
+        if (k >= OptionsListBody.Count)
+        {
+            k = 0; //Reset if cycled though entire lifetime
+        }
+
+        CurrentBodyPart = OptionsListBody[k].gameObject;
+<<<<<<< HEAD:Assets/Objects/Player/CustCScript/CustomeCharacter.cs
+        OptionsListBody[k].active = true;
+
+=======
+        OptionsListBody[k].SetActive(true);
+>>>>>>> 50d73d9d4b240c295f12ffbdc1596032deb9736e:Assets/Objects/Player/CustomeCharacter.cs
+    }
+
+    public void AnimatedPreviouseOptionBody()
+    {
+        SetAllOnFalseBody();
+        k--;
+
+        if (k <= -1)
+        {
+            k = OptionsListBody.Count - 1; ; //Reset if cycled though entire lifetime 
+        }
+
+        CurrentBodyPart = OptionsListBody[k].gameObject;
+        OptionsListBody[k].SetActive(true);
+    }
+
+    public void SetAllOnFalseHair()
+    {
+        OptionsListHair[0].SetActive(false);
+        OptionsListHair[1].SetActive(false);
+        OptionsListHair[2].SetActive(false);
+
+    }
+
+    public void SetAllOnFalseEyes()
+    {
+        OptionsListEyes[0].SetActive(false);
+        OptionsListEyes[1].SetActive(false);
+
+    }
+    public void SetAllOnFalseBody()
+    {
+        OptionsListBody[0].SetActive(false);
+        OptionsListBody[1].SetActive(false);
+        OptionsListBody[2].SetActive(false);
+        OptionsListBody[3].SetActive(false);
+    }
+
+    public void CheckWhichGameObjectIsVisibleBody()
+    {
+        if (OptionsListBody[0].active) {
+           Debug.Log("ArmorOutfit");
+        } else if (OptionsListBody[1].active) {
+            Debug.Log("RetroOutfit");
+        } else if (OptionsListBody[2].active) {
+            Debug.Log("BrownOutfit");
+        } else {
+            Debug.Log("Pink outfit");
+        }
+    }
+
+    public void CheckWhichGameObjectIsVisibleEyes()
+    {
+        if (OptionsListEyes[0].active) {
+            Debug.Log("Long eyes");
+        } else {
+            Debug.Log("Small eyes");
+        }
+    }
+
+    public void CheckWhichGameObjectIsVisibleHair()
+    {
+        if (OptionsListHair[0].active) {
+            Debug.Log("PinkHair");
+        } else if (OptionsListHair[1].active) {
+            Debug.Log("RetroOutfit");
+        } else if (OptionsListHair[2].active) {
+            Debug.Log("BrownOutfit");
+        } else {
+            Debug.Log("Pink outfit");
+        }
+    }
+}
+
